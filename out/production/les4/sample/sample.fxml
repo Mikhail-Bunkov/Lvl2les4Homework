@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <GridPane fx:controller="sample.Controller"
       xmlns:fx="http://javafx.com/fxml" alignment="center">
-    <TextArea fx:id ="textArea" prefHeight="400" prefWidth="500" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <TextArea fx:id ="textArea" prefHeight="400" prefWidth="500" GridPane.columnIndex="0" GridPane.rowIndex="1" focusTraversable="false" />
     <TextField fx:id ="textField" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#ClickSendBtn" />
     <Button text="Send" fx:id = "SendBtn" prefHeight="70" prefWidth="500" GridPane.columnIndex="0" GridPane.rowIndex="3" onAction="#ClickSendBtn" />
 
